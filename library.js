@@ -30,6 +30,12 @@ function s(selector)
     },
     basic:()=>{
       self.element.style.fontFamily = "arial"
+    },
+    footer:()=>{
+      self.element.style.position = "absolute"
+      self.element.style.bottom = "0"
+      self.element.style.width = "100%"
+      self.element.style.height = "2.5rem"
     }
   }
   
